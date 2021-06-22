@@ -1,0 +1,74 @@
+body
+{
+    background-size: cover;
+}
+
+.heading
+{
+    font-size: 33px;
+    width: 100%;
+    margin: 0px;
+    background-image: url("download.jpg");
+    color: white;
+    font-weight: bold;
+    background-size: auto;
+}
+
+.note
+{
+    font-size: 15px;
+    color: white
+}
+
+.div_speed
+{
+    float: left;
+}
+
+.div_speed_img
+{
+    width: 200px;
+    border-radius: 100px;
+}
+
+#speed
+{
+    font-size: 23px;
+    margin: 15px;
+    background-color: yellow;
+    color: black;
+    font-weight: bolder;
+}
+
+.div_volume
+{
+    float: right;
+}
+
+.div_volume_img
+{
+    width: 200px;
+    border-radius: 100px;
+}
+
+#volume
+{
+    font-size: 23px;
+    margin: 15px;
+    background-color: yellow;
+    color: black;
+    font-weight: bolder;
+}
+
+.canvas
+{
+    border: 15px solid white;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px black;
+}
+
+@keyframes example
+{
+    from{box-shadow: 1px 1px 38px red;}
+    to{box-shadow: 1px 1px 38px yellow;}
+}
