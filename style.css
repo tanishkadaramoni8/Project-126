@@ -67,8 +67,3 @@ body
     box-shadow: 5px 5px 5px black;
 }
 
-@keyframes example
-{
-    from{box-shadow: 1px 1px 38px red;}
-    to{box-shadow: 1px 1px 38px yellow;}
-}
